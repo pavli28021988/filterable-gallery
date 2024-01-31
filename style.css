@@ -1,0 +1,60 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Biryani&display=swap');
+
+*{
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Biryani', sans-serif;
+    width: 100vw;
+    height:100vh ;
+    background-color: #CADFE0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:4rem auto;
+    width: 90%;
+}
+h2{
+    font-size:40px ;
+    color:#820082 ;
+   font-weight: bolder;
+}
+.menu{
+    margin: 40px auto;
+}
+.btn{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    background-color:#820082 ;
+    padding: 10px 30px;
+    margin: 0 10px;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.store-item{
+
+   /*  margin: 0 auto; */
+    width: 300px;
+    padding: 1rem; 
+
+}
+.store-item img{
+    display: block;
+    width: 100%;
+}
